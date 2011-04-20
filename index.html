@@ -1,1 +1,132 @@
-aplerk
+<!-- CLERK APP -->
+<!Doctype html>
+<html lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title>apkler- Another Clerk App</title> 
+<meta name="title" content="apklerk" /> 
+<meta name="description" content="A cool app for your hotel" /> 
+<link href="css/style.css" rel="stylesheet"  type="text/css" />
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/libs/live.js"></script>
+<style>
+body, html {
+  margin:0;
+  height:100%;
+  width:100%;
+  font-family:Arial;
+  font-size:1em;
+}
+#formulario {
+  
+  
+}
+#formulario form {
+  margin-left:40%;
+}
+#status, #formulario p {
+  text-align:center ;
+}
+.center {
+  text-align:center;
+  margin-top:250px;
+  
+}
+.loading {
+  background-image:url("css/ajax-loader.gif");
+}
+form {
+  
+  width:240px;
+}
+.spotlight-container{
+  position: relative;
+  
+  color: white;
+  
+  width: 100%;
+  height: 100%;
+    
+  background-image: -webkit-gradient(radial, 50% 75%, 0, 50% 75%, 400, 
+        from(rgba(55,89,138,0.5)), to(rgba(55,89,138,0))),
+      -webkit-gradient(linear,left bottom,left top,
+        color-stop(0, #385A8C),color-stop(0.6, #000000));
+  background-image: -moz-radial-gradient(50% 75%, circle, 
+      rgba(55,89,138,0.5) 0px, rgba(55,89,138,0) 400px),
+      -moz-linear-gradient(center bottom,#385A8C 0%,#000000 60%); 
+  overflow: hidden;
+  z-index:1;
+}
+
+.spotlight-container:before{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 150%;
+  content: "";
+  
+  /* Webkit eliptical gradient*/
+  background-image: -webkit-gradient(radial, 50% 35%, 100, 50% 35%, 350, 
+        from(rgba(255,255,255,0.09)), to(rgba(255,255,255,0)));
+  -webkit-transform: scale(1.0,0.3);
+  
+  /* Firefox eliptical gradient*/
+  background-image: -moz-radial-gradient(50% 35%, circle, 
+      rgba(255,255,255,0.09) 100px, rgba(255,255,255,0) 350px); 
+  -moz-transform: scale(1.0,0.3);
+}
+#bodyWrapp {
+  z-index:20;
+  position:relative;
+
+}
+#response {
+  padding:20px;
+}
+ #habitaciones {
+   position:relative;
+
+ }
+
+</style>
+</head>
+<body>
+<div class="spotlight-container">
+<div id="bodyWrapp">
+  <header>
+    <hgroup>
+    <h1 class="center" id="h1">apkler</h1>
+    </hgroup>
+  </header>
+  <div id="formulario">
+  <p>Give us your API-Key (this not will be store<br>At least that you want)</p>
+  <form >
+
+  <input type="text" id="ap" name="API" autofocus>
+   <input type="submit" value="Go" id="go" enabled>
+
+
+  </form><br />
+  </div>
+  <div id="status">focusout fire</div>
+  <div id="response" style="display:none;">
+    <section id="habitaciones">
+      <header id="head-habitaciones">Ver Habitaciones Disponibles</header>
+      <section id="body_in"></section>
+    </section>
+  </div>
+</div>
+</div>
+
+
+
+
+<script src="js/libs/jquery.js"></script>
+<script src="js/every.js" ></script>
+
+
+
+</body>
+</html>
