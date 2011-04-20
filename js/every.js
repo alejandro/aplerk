@@ -1,6 +1,4 @@
-// API e68f21d821c4cb00a2fe6136345cf1ee01b38f64
-// https://api.clerk.im/rooms/room_type/1.json?api_key=
-// 
+
 
 $(document).ready(function () {
 function information() 
