@@ -1,0 +1,39 @@
+{"rsp": 
+	{
+		"status": 
+			{"msg": "OK", "code": 200},
+		 "total": 
+		 	{"actives": 7, "inactives": 0}, 
+		 "rooms": 
+		 	[
+		 		{
+			 		"room": 
+			 		{"name": "Presidencial","updated_at": "2011-04-17T00:12:56Z", "id": 3952, "rooms_type_id": 2125, "active": true
+			 		}
+			 	}, 
+			 	{
+				 	"room": 
+				 	{"name": "Suit1", "updated_at": "2011-04-17T00:12:56Z", "id": 3951, "rooms_type_id": 2126, "active": true}
+				 }, 
+				 {
+					 "room": 
+					 {"name": "Triple 1", "updated_at": "2011-04-17T00:12:56Z", "id": 3950, "rooms_type_id": 2124, "active": true}
+				}, 
+				{
+					"room": 
+					{"name": "Doble 1", "updated_at": "2011-04-17T00:12:56Z", "id": 3949, "rooms_type_id": 2123, "active": true}
+				}, 
+				{
+					"room": 
+					{"name": "Sencilla 3", "updated_at": "2011-04-17T00:12:56Z", "id": 3948, "rooms_type_id": 2122, "active": true}
+				},
+				{
+					"room": 
+					{"name": "Sencilla2", "updated_at": "2011-04-17T00:12:56Z", "id": 3947, "rooms_type_id": 2122, "active": true}
+				}, 
+				{
+					"room": {"name": "Sencilla 1", "updated_at": "2011-04-17T00:12:56Z", "id": 3946, "rooms_type_id": 2122, "active": true}
+				}
+			]
+		}
+}
